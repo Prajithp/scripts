@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CPUMetrics	../CloudWatch.py	/^class CPUMetrics(CloudWatch):$/;"	kind:class	line:124
+CloudWatch	../CloudWatch.py	/^class CloudWatch:$/;"	kind:class	line:21
+CloudWatch.py	../CloudWatch.py	1;"	kind:file	line:1
+DiskMetrics	../CloudWatch.py	/^class DiskMetrics(CloudWatch):$/;"	kind:class	line:107
+InstanceInfo	../CloudWatch.py	/^class InstanceInfo:$/;"	kind:class	line:10
+MemMetrics	../CloudWatch.py	/^class MemMetrics(CloudWatch):$/;"	kind:class	line:59
+__init__	../CloudWatch.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../CloudWatch.py	/^    def __init__(self, region, instanceId):$/;"	kind:member	line:125
+__init__	../CloudWatch.py	/^    def __init__(self, region, instanceId):$/;"	kind:member	line:22
+__init__	../CloudWatch.py	/^    def __init__(self, region, instanceId):$/;"	kind:member	line:60
+__init__	../CloudWatch.py	/^    def __init__(self, region, instanceId, mount=None):$/;"	kind:member	line:108
+args	../CloudWatch.py	/^    args = parser.parse_args()$/;"	kind:variable	line:168
+cpu	../CloudWatch.py	/^    cpu = parser.add_argument_group('cpu metrics')$/;"	kind:variable	line:161
+disk	../CloudWatch.py	/^    disk = parser.add_argument_group('disk metrics')$/;"	kind:variable	line:157
+disk_util	../CloudWatch.py	/^    def disk_util(self):$/;"	kind:member	line:112
+gatherLoadAvg	../CloudWatch.py	/^    def gatherLoadAvg(self):$/;"	kind:member	line:128
+gatherMemInfo	../CloudWatch.py	/^    def gatherMemInfo(self):$/;"	kind:member	line:70
+getInstanceInfo	../CloudWatch.py	/^    def getInstanceInfo(self):$/;"	kind:member	line:16
+instance_info	../CloudWatch.py	/^    instance_info = InstanceInfo()$/;"	kind:variable	line:170
+mem_avail	../CloudWatch.py	/^    def mem_avail(self):$/;"	kind:member	line:83
+mem_used	../CloudWatch.py	/^    def mem_used(self):$/;"	kind:member	line:86
+mem_util	../CloudWatch.py	/^    def mem_util(self):$/;"	kind:member	line:80
+memory	../CloudWatch.py	/^    memory = parser.add_argument_group('memory metrics')$/;"	kind:variable	line:154
+metrics	../CloudWatch.py	/^    def metrics(self):$/;"	kind:member	line:118
+metrics	../CloudWatch.py	/^    def metrics(self):$/;"	kind:member	line:138
+metrics	../CloudWatch.py	/^    def metrics(self):$/;"	kind:member	line:56
+metrics	../CloudWatch.py	/^    def metrics(self):$/;"	kind:member	line:99
+parser	../CloudWatch.py	/^    parser = argparse.ArgumentParser($/;"	kind:variable	line:147
+sendMetrics	../CloudWatch.py	/^    def sendMetrics(self, metrics=None, namespace="System\/Linux"):$/;"	kind:member	line:28
+swap_used	../CloudWatch.py	/^    def swap_used(self):$/;"	kind:member	line:95
+swap_util	../CloudWatch.py	/^    def swap_util(self):$/;"	kind:member	line:89
